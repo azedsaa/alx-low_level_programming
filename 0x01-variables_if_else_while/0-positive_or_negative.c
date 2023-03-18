@@ -13,11 +13,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n >= 20)
+	if (n > 20)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n <= 20)
+	else if (n < 20)
 	{
 		printf("%d is negative\n", n);
 	}
