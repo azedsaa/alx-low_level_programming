@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
   * main - function print char
   * Desctiption: prints _putchar
@@ -6,7 +7,10 @@
   */
 
 int main(void)
+
 {
-	_putchar("a");
-	return(0);
+
+	_putchar('a');
+	return (0);
+
 }
