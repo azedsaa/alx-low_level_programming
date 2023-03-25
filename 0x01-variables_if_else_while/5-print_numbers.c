@@ -2,7 +2,6 @@
 
 /**
   * main - function print on digit  numbers
-  * @x: base 10
   * Return: always 0.
   */
 int main(void)
@@ -11,8 +10,9 @@ int main(void)
 
 	while (x < 10)
 {
-		printf("%d\n", x);
+		printf("%d", x);
 		x++;
 }
+	printf("\n");
 	return (0);
 }
